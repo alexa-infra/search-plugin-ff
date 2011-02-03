@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<overlay id="searchPlugin-overlay"
+   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<stringbundleset id="stringbundleset">
+<stringbundle id="stringsPlugin" src="chrome://searchPlugin/content/searchPlugin.properties"/>
+</stringbundleset>
+
+<script type="application/x-javascript"
+        src="chrome://searchPlugin/content/searchPlugin.js" />
+
+<popup id="contentAreaContextMenu">
+    <menuitem id="menu_searchPlugin" 
+        label=""
+        oncommand="searchPlugin_navigate()"
+        />
+</popup>
+
+</overlay>

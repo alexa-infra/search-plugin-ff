@@ -1,0 +1,2 @@
+content searchPlugin chrome/content/
+overlay chrome://browser/content/browser.xul chrome://searchPlugin/content/contextMenu.xul
